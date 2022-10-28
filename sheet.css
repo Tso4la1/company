@@ -2,10 +2,11 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 body{
-    font-family: 'Roboto', sans-serif;
+    
     overflow-x: hidden;
 }
 #section-navbar{
@@ -34,7 +35,7 @@ body{
 .navbar li a{
     text-align: left;
     float:right;
-    font-weight: bolder;
+    font-weight: 700px;
 }
 .navbar img{
     height: 70px;
@@ -138,7 +139,7 @@ body{
 
 #about-us .title{
     font-size: 40px;
-    font-weight: 100px;
+    font-weight: 500px;
     text-transform: capitalize;
     
     
@@ -189,7 +190,7 @@ body{
 #social p{
     margin-bottom: 36px;
     font-size: 30px;
-    font-weight: 600px;
+    font-weight: 500px;
     text-transform: uppercase;
 }
 .social-icon img{
