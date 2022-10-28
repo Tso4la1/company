@@ -10,7 +10,7 @@ body{
 }
 #section-navbar{
     top:0;
-    position: fixed;
+    position: sticky;
     z-index: 100px;
      
 }
@@ -103,8 +103,8 @@ body{
     margin-right: auto;
     display: block;
     transform: translateY(70px);
-    background:linear-gradient(to right, black, red) 
-
+    background:linear-gradient(to right, black, red);
+    z-index: 0
 }
 
 .center::after{
@@ -116,7 +116,8 @@ body{
     margin-bottom: 15px;
     display: block;
     transform: translateY(6px);
-    background:linear-gradient(to right, black, red)  
+    background:linear-gradient(to right, black, red);
+    z-index:0;
 
 }
 #content-view .btn-info{
