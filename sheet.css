@@ -6,13 +6,11 @@
 
 body{
     font-family: 'Roboto', sans-serif;
-
-   
     overflow-x: hidden;
 }
 #section-navbar{
     top:0;
-    position: sticky;
+    position: fixed;
     z-index: 100px;
      
 }
