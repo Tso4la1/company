@@ -13,7 +13,7 @@ body{
 #section-navbar{
     top:0;
     position: sticky;
-    z-index: 10px;
+    z-index: 100px;
      
 }
 .navbar{
